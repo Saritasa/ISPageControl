@@ -193,7 +193,7 @@ private extension ISPageControl {
             $0.element.backgroundColor = $0.offset == currentPage ? currentPageTintColor.cgColor : inactiveTintColor.withAlphaComponent(inactiveTransparency).cgColor
         }
         
-        guard numberOfPages > 0 else {
+        guard numberOfPages > 1 else {
             return
         }
         
